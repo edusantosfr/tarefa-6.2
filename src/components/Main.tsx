@@ -1,13 +1,15 @@
-import { PostsList } from "./PostsList";
+import { CardsList } from "./CardsList";
+import { HeaderContainer } from "../styles";
 
 export function Main() {
     return (
-        <main className="mx-56 my-4">
-            <header>
-                <h1 className="font-bold text-3xl">Blog React</h1>
-                <hr className="my-4" />
-            </header>
-            <PostsList />
+        <main>
+            <HeaderContainer>
+                <h1>Blog React</h1>
+            </HeaderContainer>
+            <div>
+                <CardsList />
+            </div>
         </main>
     )
 }
