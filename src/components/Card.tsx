@@ -8,8 +8,8 @@ export function Card({ name }: Props) {
     return (
         <Container>
             <Content>
-                <img src="" alt="" />
                 <h1>{name}</h1>
+                <img src="" alt="" />
                 <p></p>
             </Content>
         </Container>
