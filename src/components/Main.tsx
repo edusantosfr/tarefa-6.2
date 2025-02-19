@@ -5,7 +5,7 @@ export function Main() {
     return (
         <main>
             <HeaderContainer>
-                <h1>Blog React</h1>
+                <h1>Pokemon Cards</h1>
             </HeaderContainer>
             <div>
                 <CardsList />
